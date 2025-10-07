@@ -6,6 +6,7 @@ import MyPageB from './components/MyPageB'
 import MyPageC from './components/MyPageC'
 import MyPageD from './components/MyPageD'
 import NotFound from './components/NotFound'
+import './App.css'
 
 export default function App() {
   return (
