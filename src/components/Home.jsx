@@ -13,7 +13,7 @@ export default function Home() {
     <div style={{fonfamily:'Roboto Mono'}} className='w-full h-lvh bg-[#91FFB2]'>
       {/* ctrl+/ */}
       {/* ส่วนบน */}
-      <div className='w-8/12  mx-auto flex py-20 justify-between'>
+      <div className='w-8/12  mx-auto flex py-16 justify-between'>
       {/* ส่วนที่ 1 */}
       <div className='flex flex-col'>
         <div>
@@ -49,13 +49,13 @@ export default function Home() {
       {/* ส่วนที่ 2 */}
       <div>
         <Link to = '/MyPageC'>
-        <img src={img3} alt="img3" className='w-53'/>
+        <img src={img3} alt="img3" className='w-46'/>
         </Link>
       </div>
       {/* ส่วนที่ 3 */}
       <div>
         <Link to = '/MyPageD'>
-          <img src={img4} alt="img4" className='w-32 h-min'/>
+          <img src={img4} alt="img4" className='w-28'/>
         </Link>
       </div>
       </div>

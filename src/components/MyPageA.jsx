@@ -10,7 +10,7 @@ export default function MyPageA() {
   return (
     <>
       <div
-        style={{ fonfamily: "Monomaniac One" }}
+        style={{ fontFamily: "Mononiac One" }}
         className="w-full h-lvh flex flex-col items-center  bg-black"
       >
         {/* ส่วนที่ 1 เมนู */}
@@ -30,10 +30,10 @@ export default function MyPageA() {
             <img src={Logo} alt="Logo" className="w-20" />
           </div>
           <div className="flex-1 text-white flex gap-5 justify-end">
-            <FaGithub />
-            <FaInstagram />
-            <FaSquareXTwitter />
-            <FaLinkedinIn />
+            <FaGithub className="size-6"/>
+            <FaInstagram className="size-6"/>
+            <FaSquareXTwitter className="size-6"/>
+            <FaLinkedinIn className="text-6xl bg-white text-black p-1 rounded-3xl size-6"/>
           </div>
         </div>
         {/* ส่วนที่ 2 ข้อความ */}
