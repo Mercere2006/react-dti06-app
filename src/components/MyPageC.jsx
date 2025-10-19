@@ -10,7 +10,7 @@ import { BsInstagram } from "react-icons/bs";
 export default function MyPageC() {
   return (
     <>
-      <div className="w-full h-full bg-[#000C58]">
+      <div className="min-h-screen bg-[#000C58]">
         <div className="h-20 bg-[#060135] flex flex-row justify-center items-center">
           <div
             style={{ fontfamily: "bebas neue" }}
@@ -211,7 +211,7 @@ export default function MyPageC() {
               For more info, here’s my {" "}
               <span className="text-white font-normal">resume</span> <br />
             </p>
-            <div className="flex gap-5 mt-10 text-xl text-[#7A99E9]">
+            <div className="flex gap-5 mt-10 text-2xl text-[#7A99E9]">
               <FaLinkedinIn />
               <FaGithub />
               <FaXTwitter />
@@ -219,23 +219,23 @@ export default function MyPageC() {
             </div>
           </div>
           <div>
-            <div style={{ fontFamily: "Monrope" }} className="mt-15 ml-15">
+            <div style={{ fontFamily: "Monrope" }} className="mt-15 ml-15 text-[#C7C7C7]">
               <div>Name</div>
-                <input className="mt-2 w-[550px] border-none py-3 rounded-md bg-[#060135] " />
+                <input className="mt-2 w-[550px] border-none h-[50px] p-4 rounded-md bg-[#060135] focus:outline-none" />
               <div className="mt-5">Email</div>
-                <input className="mt-2 w-[550px] border-none py-3 rounded-md bg-[#060135] " />
+                <input className="mt-2 w-[550px] border-none h-[50px] p-4 rounded-md bg-[#060135] focus:outline-none" />
               <div className="mt-5">Subject</div>
-                <input className="mt-2 w-[550px] border-none py-3 rounded-md bg-[#060135] " />
+                <input className="mt-2 w-[550px] border-none h-[50px] p-4 rounded-md bg-[#060135] focus:outline-none" />
               <div className="mt-5">Message</div>
-                <input className="mt-2 w-[550px] border-none py-15 rounded-md bg-[#060135] " />
+                <textarea className="mt-2 w-[550px] border-none h-[150px] p-4 align-top text-start rounded-md bg-[#060135] focus:outline- resize-none" />
                 <div className="bg-[#7A99E9] text-black rounded-full mt-5 py-2 text-center text-xs font-semibold w-25"> SUBMIT</div>
             </div>
           </div>
         </div>
         <hr className="border border-[#484848] mt-10 w-[90%] mx-auto" />
-        <div className="text-white mt-10 pb-10 text-center">
+        <footer className="text-[#C7C7C7] mt-10 pb-10 text-center">
           © 2025 Created by SAU-Dev-Team
-        </div>
+        </footer>
       </div>
     </>
   );
